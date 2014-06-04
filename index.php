@@ -243,8 +243,8 @@ function do_action(){
 		debug_trace('redis connection exception: ' . $e->getMessage());
 
 		/** do something to wakeup redis */
-		$dir = getenv('OPENSHIFT_DATA_DIR');
-		shell_exec($dir . '/redis/check-and-start.sh');
+		/*$dir = getenv('OPENSHIFT_DATA_DIR');
+		shell_exec($dir . '/redis/check-and-start.sh');*/
 	}
 }
 
