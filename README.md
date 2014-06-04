@@ -11,13 +11,13 @@ Typecho Redis Cache is a full-site cache script for [```Typecho Blogging Platfor
 
 ###Get Started
 1. Typecho Redis Cache use [```Credis```](https://github.com/colinmollenhour/credis) as Redis client, so firstly download ```Credis``` [here](https://github.com/colinmollenhour/credis), then upload Credis to Typecho root directory.
-2. Rename ```index.php``` in Typecho root directory to ```index-orgin.php```.
+2. Rename ```index.php``` in Typecho root directory to ```index_orgin.php```.
 3. Configure Redis server host, server port and userkey of ```index.php```, then upload it to Typecho root directory.
 
 The structure of Typecho root directory:
 ```
 ├── index.php 			    Typecho Redis Cache script          
-├── index-origin.php 	original Typecho index.php
+├── index_origin.php 	original Typecho index.php
 ├── Credis 					Credis library
     ├── Client.php 			Credis library files
     ├── other files
